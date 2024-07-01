@@ -13,7 +13,7 @@ body {
 }
 .container {
     display: flex;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 700px;
 }
 
@@ -78,7 +78,9 @@ body {
 
 .form-group label {
     font-size: 0.6rem;
+    font-weight: bold;
     margin-bottom: 3px;
+    color: rgb(75, 75, 75);
 }
 
 .sign-up-form p:first-child {
@@ -109,7 +111,7 @@ body {
 .sign-up-form input[type='password']:active,
 .sign-up-form input[type='tel']:active {
     border: 1px solid rgb(0, 132, 255);
-    box-shadow: 0 10px 10px -5px lightgray;
+    box-shadow: 0 10px 10px -5px rgb(146, 146, 146);
 }
 
 .sign-up-form input[type='text']:invalid,
